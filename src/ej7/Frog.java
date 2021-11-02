@@ -2,7 +2,7 @@ package ej7;
 
 public class Frog extends Amphibian {
 	
-	public void correr () {
+	public void correr() {
 		System.out.println("Correr de frog");
 	}
 	
@@ -16,6 +16,10 @@ public class Frog extends Amphibian {
 	
 	public void sonido() {
 		System.out.println("Sonido de Frog");
+	}
+	
+	public void alimentarse() {
+		System.out.println("Alimentarse de Frog");
 	}
 
 }
